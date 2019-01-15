@@ -6,9 +6,15 @@
   <title>PfGWC Avatar Creator</title>
 </head>
 
-<body>
+<body onload="drawFemale()"> <!-- By default set the avatar to female -->
   <h1>PfGWC Avatar Creator</h1>
 
-  <script src="js/scripts.js"></script>
+  <canvas id="canvas" width="300" height="500"></canvas>
+
+  <button id="femaleBtn">female</button>
+  <button id="maleBtn">male</button>
+
+  <script src="js/canvas.js"></script>
+  <script src="js/gender.js"></script>
 </body>
 </html>

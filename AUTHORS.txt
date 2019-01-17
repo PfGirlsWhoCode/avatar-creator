@@ -1,6 +1,10 @@
 Zach Whaley
 Julia Gatliff
+<<<<<<< HEAD
 Layla Diaz
+=======
+Barbie is dumping Ken for Spike the dragon
+>>>>>>> d79b5d453e095d0a3f113d6d81cd7e7b14e759fa
 Tayas23
 Emily Standish
 Muffin

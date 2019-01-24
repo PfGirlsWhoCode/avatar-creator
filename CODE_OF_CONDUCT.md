@@ -1,4 +1,5 @@
-# Code of Conduct
+Code of Conduct
+===============
 
 <<< Pflugerville Girls Who Code Club >>>
 
@@ -6,7 +7,8 @@ The _purpose_ of the Pflugerville Girls Who Code Club is to engage students in c
 
 Our _goal_ is to accomplish our purpose while having fun in the process!
 
-## Encouraged Behavior
+Encouraged Behavior
+-------------------
 - Being respectful when other people are talking
 - Cell phones go in the phone ‘bucket’ during meetings
 - Using welcoming and inclusive language
@@ -15,14 +17,16 @@ Our _goal_ is to accomplish our purpose while having fun in the process!
 - Showing empathy towards other club members
 - Be on task
 
-## Unacceptable Behavior
+Unacceptable Behavior
+---------------------
 - drawing negative attention to others
 - sustained disruption of lectures or club discussions
 - discrimination related to race, ethnicity, religion, technology choices, gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size
 - using club time for interests not related to the club
 - inappropriate physical contact or unwelcome sexual behavior
 
-## How can I report a violation of the Code of Conduct?
+How can I report a violation of the Code of Conduct?
+----------------------------------------------------
 - Instances of abuse, harassment, or otherwise unacceptable behavior may be reported
   - to a GWC club facilitator
   - by contacting the GWC Coordinator, Amanda Cawthon, at amandac@pflugervilletx.gov

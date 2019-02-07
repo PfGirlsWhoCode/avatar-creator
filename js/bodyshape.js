@@ -5,11 +5,18 @@ function drawFemale() {
     console.log("draw female")
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     ctx.drawImage(femaleImage, 0, 0, 300, 500)
+}
 
 
 var radios = document.forms["formA"].elements["myradio"];
 for (var r of radios){
     r.onclick = function() {
-        alert(this.value);
+        if(this.value ==="A"){
+            drawFemale()
+        } else {
+            ctx.clearRect(0, 0, canvas.width, canvas.height)
+        }
+        
+
     }
 }

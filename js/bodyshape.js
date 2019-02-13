@@ -11,7 +11,7 @@ function drawFemale() {
 var radios = document.forms["formA"].elements["myradio"];
 for (var r of radios){
     r.onclick = function() {
-        if(this.value ==="A"){
+        if(this.value ==="Triangle"){
             drawFemale()
         } else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)

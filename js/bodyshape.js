@@ -32,6 +32,12 @@ for (var r of radios){
         else if(this.value === "Circle"){
             drawBodyShape(femaleImage)
         }
+        else if (this.value ==="Rectangle"){
+            drawBodyShape(maleImage)
+        }
+        else if (this.value === "Hourglass"){
+            drawBodyShape(femaleImage)
+        }
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
         }

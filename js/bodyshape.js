@@ -20,5 +20,8 @@ for (var r of radios){
         else if(this.value === "Pear"){
             drawBodyShape(maleImage)
         }
+        else {
+            ctx.clearRect(0, 0, canvas.width, canvas.height)
+        }
     }
 }

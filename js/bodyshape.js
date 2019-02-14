@@ -32,5 +32,8 @@ for (var r of radios){
         else if(this.value === "Circle"){
             drawBodyShape(femaleImage)
         }
+        else {
+            ctx.clearRect(0, 0, canvas.width, canvas.height)
+        }
     }
 }

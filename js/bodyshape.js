@@ -16,8 +16,9 @@ for (var r of radios){
 
         if(this.value ==="Triangle"){
             drawBodyShape(femaleImage)
-        } else {
-           drawBodyShape(maleImage)
+        } 
+        else if(this.value === "Pear"){
+            drawBodyShape(maleImage)
         }
     }
 }

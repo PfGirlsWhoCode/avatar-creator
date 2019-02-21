@@ -2,17 +2,14 @@
 var maleApple = new Image()
 maleApple.src = "img/male_apple.svgz"
 
-
 var maleRectangle = new Image()
 maleRectangle.src = "img/male_rectangle.svgz"
 
 var maleHourglass = new Image()
 maleHourglass.src = "img/male_hourglass.svg"
 
-
 var malePear = new Image()
 malePear.src = "img/male_pear.svg"
-
 
 var maleTriangle = new Image()
 maleTriangle.src = "img/male_triangle.svg"
@@ -21,7 +18,6 @@ maleTriangle.src = "img/male_triangle.svg"
 var femaleImage = new Image()
 femaleImage.src = "img/female.svg"
 
-
 var femaleImage = new Image()
 femaleImage.src = "img/female.svg"
 
@@ -33,7 +29,6 @@ femaleImage.src = "img/female.svg"
 
 var femaleImage = new Image()
 femaleImage.src = "img/female.svg"
-
 
 
 var shape = "Triangle"

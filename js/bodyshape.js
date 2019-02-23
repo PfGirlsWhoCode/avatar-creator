@@ -56,7 +56,7 @@ function drawAvatar() {
 
 function drawBodyShape(image) {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    ctx.drawImage(image, 0, 0, 300, 500)
+    ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }
 
 
@@ -66,25 +66,5 @@ for (var r of radios){
 
         shape = this.value
         drawAvatar()
-        /*
-        if(this.value ==="Triangle"){
-            drawBodyShape(femaleImage)
-        } 
-        else if(this.value === "Pear"){
-            drawBodyShape(maleImage)
-        } 
-        else if(this.value === "Circle"){
-            drawBodyShape(femaleImage)
-        }
-        else if (this.value ==="Rectangle"){
-            drawBodyShape(maleImage)
-        }
-        else if (this.value === "Hourglass"){
-            drawBodyShape(femaleImage)
-        }
-        else {
-            ctx.clearRect(0, 0, canvas.width, canvas.height)
-        }
-        */
     }
 }

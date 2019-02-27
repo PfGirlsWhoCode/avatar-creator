@@ -33,27 +33,6 @@ femaleImage.src = "img/female.svg"
 
 var shape = "Triangle"
 
-function drawAvatar() {
-    if(shape ==="Triangle"){
-        drawBodyShape(femaleImage)
-    } 
-    else if(shape === "Pear"){
-        drawBodyShape(maleImage)
-    } 
-    else if(shape === "Circle"){
-        drawBodyShape(femaleImage)
-    }
-    else if (shape ==="Rectangle"){
-        drawBodyShape(maleImage)
-    }
-    else if (shape === "Hourglass"){
-        drawBodyShape(femaleImage)
-    }
-    else {
-        ctx.clearRect(0, 0, canvas.width, canvas.height)
-    }
-}
-
 function drawBodyShape(image) {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)

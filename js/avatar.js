@@ -31,22 +31,49 @@ var femaleTriangle = new Image()
 femaleTriangle.src = "img/female_triangle.svg"
 
 function drawAvatar() {
-    if(shape ==="Triangle"){
-        drawBodyShape(femaleTriangle)
+    if(gender === "Female"){
+        if(shape ==="Triangle"){
+            drawBodyShape(femaleTriangle)
+        } 
+        else if(shape === "Pear"){
+            drawBodyShape(femalePear)
+        } 
+        else if(shape === "Circle"){
+            drawBodyShape(femaleApple)
+        }
+        else if (shape ==="Rectangle"){
+            drawBodyShape(femaleRectangle)
+        }
+        else if (shape === "Hourglass"){
+            drawBodyShape(femaleHourglass)
+        }
+        else {
+            ctx.clearRect(0, 0, canvas.width, canvas.height)
+        }
+    }
+    else if(gender === "Male"){
+        if(shape ==="Triangle"){
+            drawBodyShape(maleTriangle)
+        } 
+        else if(shape === "Pear"){
+            drawBodyShape(malePear)
+        } 
+        else if(shape === "Circle"){
+            drawBodyShape(maleApple)
+        }
+        else if (shape ==="Rectangle"){
+            drawBodyShape(maleRectangle)
+        }
+        else if (shape === "Hourglass"){
+            drawBodyShape(maleHourglass)
+        }
+        else {
+            ctx.clearRect(0, 0, canvas.width, canvas.height)
+        }
     } 
-    else if(shape === "Pear"){
-        drawBodyShape(femalePear)
-    } 
-    else if(shape === "Circle"){
-        drawBodyShape(femaleCircle)
-    }
-    else if (shape ==="Rectangle"){
-        drawBodyShape(femaleRectangle)
-    }
-    else if (shape === "Hourglass"){
-        drawBodyShape(femaleHourglass)
-    }
-    else {
-        ctx.clearRect(0, 0, canvas.width, canvas.height)
-    }
+}
+
+function drawBodyShape(image) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }

@@ -38,7 +38,7 @@ function drawAvatar() {
         drawBodyShape(femalePear)
     } 
     else if(shape === "Circle"){
-        drawBodyShape(femaleCircle)
+        drawBodyShape(femaleApple)
     }
     else if (shape ==="Rectangle"){
         drawBodyShape(femaleRectangle)
@@ -49,4 +49,9 @@ function drawAvatar() {
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height)
     }
+}
+
+function drawBodyShape(image) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }

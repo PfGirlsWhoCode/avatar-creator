@@ -38,7 +38,7 @@ function drawAvatar() {
         drawBodyShape(femalePear)
     } 
     else if(shape === "Circle"){
-        drawBodyShape(femaleCircle)
+        drawBodyShape(femaleApple)
     }
     else if (shape ==="Rectangle"){
         drawBodyShape(femaleRectangle)

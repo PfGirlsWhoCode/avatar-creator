@@ -1,8 +1,8 @@
 var gender = "Female"
 
 var radios = document.forms["formA"].elements["myradio"];
-for (var r of radios){
-    r.onclick = function() {
+for (var i = 0; i < radios.length; i++) { 
+    radios[i].onclick = function() {
 
         gender = this.value
         drawAvatar()

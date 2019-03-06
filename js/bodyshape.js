@@ -1,4 +1,4 @@
-var shape = "Triangle"
+var shape = ""
 
 var radios = document.forms["formShape"].elements["myradio"];
 for (var i = 0; i < radios.length; i++) { 

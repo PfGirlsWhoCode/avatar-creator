@@ -1,9 +1,8 @@
-var shape = "Triangle"
+var shape = ""
 
 var radios = document.forms["formShape"].elements["myradio"];
-for (var r of radios){
-    r.onclick = function() {
-
+for (var i = 0; i < radios.length; i++) { 
+    radios[i].onclick = function() {
         shape = this.value
         drawAvatar()
     }

@@ -70,6 +70,9 @@ function drawAvatar() {
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
         }
+    }
+    else {
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
     } 
 }
 

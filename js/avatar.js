@@ -29,9 +29,7 @@ femalePear.src = "img/female_pear.svg"
 
 var femaleTriangle = new Image()
 femaleTriangle.src = "img/female_triangle.svg"
-
-function drawAvatar() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
+function bodyshapee() {
     if(gender === "Female"){
         if(shape ==="Triangle"){
             drawBodyShape(femaleTriangle)
@@ -75,6 +73,11 @@ function drawAvatar() {
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height)
     } 
+}
+
+function drawAvatar() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    bodyshapee()
 }
 
 function drawBodyShape(image) {

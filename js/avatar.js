@@ -36,7 +36,7 @@ eye1.src = ""
 var eye2 = ""
 eye2.src = ""
 
-function drawAvatar() {
+function bodyshapee() {
     if(gender === "Female"){
         if(shape ==="Triangle"){
             drawBodyShape(femaleTriangle)
@@ -93,8 +93,13 @@ function drawEyes(){
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
     }
 }
-function drawBodyShape(image) {
+
+function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
+    bodyshapee()
+}
+
+function drawBodyShape(image) {
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }
 var eyeImage = ""

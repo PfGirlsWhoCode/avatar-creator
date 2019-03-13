@@ -31,6 +31,7 @@ var femaleTriangle = new Image()
 femaleTriangle.src = "img/female_triangle.svg"
 
 function drawAvatar() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
     if(gender === "Female"){
         if(shape ==="Triangle"){
             drawBodyShape(femaleTriangle)
@@ -77,6 +78,5 @@ function drawAvatar() {
 }
 
 function drawBodyShape(image) {
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }

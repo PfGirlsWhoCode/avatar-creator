@@ -33,8 +33,8 @@ femaleTriangle.src = "img/female_triangle.svg"
 var eyeBlue =new Image()
 eyeBlue.src = "img/blue_eyes.svg"
 
-var eye2 = ""
-eye2.src = ""
+var eyeGreen = new Image()
+eyeGreen.src = "img/green_eyes.svg"
 
 function drawBodyshape() {
     if(gender === "Female"){
@@ -85,6 +85,9 @@ function drawBodyshape() {
 function drawEyes(){
     if(eye === "Blue"){
         drawImage(eyeBlue)
+    }
+    else if(eye === "Green"){
+        drawImage(eyeGreen)
     }
     else {
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height)

@@ -33,8 +33,13 @@ femaleTriangle.src = "img/female_triangle.svg"
 var eyeBlue =new Image()
 eyeBlue.src = "img/blue_eyes.svg"
 
+<<<<<<< HEAD
 var eyeGreen = new Image()
 eyeGreen.src = "img/green_eyes.svg"
+=======
+var eyeBrown = new Image()
+eyeBrown.src = "img/brown_eyes.svg"
+>>>>>>> 206fb8685e1285a9664f88362d078fa4e14513b2
 
 function drawBodyshape() {
     if(gender === "Female"){
@@ -86,11 +91,16 @@ function drawEyes(){
     if(eye === "Blue"){
         drawImage(eyeBlue)
     }
+<<<<<<< HEAD
     else if(eye === "Green"){
         drawImage(eyeGreen)
     }
     else {
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
+=======
+    else if(eye === "Brown"){
+        drawImage(eyeBrown)
+>>>>>>> 206fb8685e1285a9664f88362d078fa4e14513b2
     }
 }
 

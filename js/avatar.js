@@ -35,8 +35,12 @@ eyeBlue.src = "img/blue_eyes.svg"
 
 var eyeGreen = new Image()
 eyeGreen.src = "img/green_eyes.svg"
+
 var eyeBrown = new Image()
 eyeBrown.src = "img/brown_eyes.svg"
+
+var eyeOgre = new Image()
+eyeOgre.src = "img/blue_ogre_eye.svg"
 
 function drawBodyshape() {
     if(gender === "Female"){
@@ -94,6 +98,9 @@ function drawEyes(){
     else if(eye === "Brown"){
         drawImage(eyeBrown)
     }
+    else if(eye === "Ogre"){
+        drawImage(eyeOgre)
+    }
 }
 
 
@@ -107,4 +114,3 @@ function drawAvatar() {
 function drawImage(image) {
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }
-var eyeImage = ""

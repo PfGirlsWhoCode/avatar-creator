@@ -86,17 +86,17 @@ function drawEyes(){
     if(eye === "Blue"){
         drawImage(eyeBlue)
     }
-    else if(eye === "eye2"){
-        drawImage()
-    }
     else {
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
     }
 }
 
+
+
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     drawBodyshape()
+    drawEyes()
 }
 
 function drawImage(image) {

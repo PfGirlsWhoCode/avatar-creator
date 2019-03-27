@@ -7,3 +7,13 @@ for (var i = 0; i < radios.length; i++) {
         drawAvatar()
     }
 }
+
+var haircolor = ""
+
+var radios = document.forms["formHaircolor"].elements["myradio"];
+for (var i = 0; i < radios.length; i++) { 
+    radios[i].onclick = function() {
+        haircolor = this.value
+        drawAvatar()
+    }
+}

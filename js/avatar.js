@@ -30,7 +30,7 @@ femalePear.src = "img/female_pear.svg"
 var femaleTriangle = new Image()
 femaleTriangle.src = "img/female_triangle.svg"
 
-var eyeBlue =new Image()
+var eyeBlue = new Image()
 eyeBlue.src = "img/blue_eyes.svg"
 
 var eyeGreen = new Image()
@@ -43,40 +43,40 @@ var eyeOgre = new Image()
 eyeOgre.src = "img/blue_ogre_eye.svg"
 
 function drawBodyshape() {
-    if(gender === "Female"){
-        if(shape ==="Triangle"){
+    if (gender === "Female") {
+        if (shape === "Triangle") {
             drawImage(femaleTriangle)
-        } 
-        else if(shape === "Pear"){
+        }
+        else if (shape === "Pear") {
             drawImage(femalePear)
-        } 
-        else if(shape === "Circle"){
+        }
+        else if (shape === "Circle") {
             drawImage(femaleApple)
         }
-        else if (shape ==="Rectangle"){
+        else if (shape === "Rectangle") {
             drawImage(femaleRectangle)
         }
-        else if (shape === "Hourglass"){
+        else if (shape === "Hourglass") {
             drawImage(femaleHourglass)
         }
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
         }
     }
-    else if(gender === "Male"){
-        if(shape ==="Triangle"){
+    else if (gender === "Male") {
+        if (shape === "Triangle") {
             drawImage(maleTriangle)
-        } 
-        else if(shape === "Pear"){
+        }
+        else if (shape === "Pear") {
             drawImage(malePear)
-        } 
-        else if(shape === "Circle"){
+        }
+        else if (shape === "Circle") {
             drawImage(maleApple)
         }
-        else if (shape ==="Rectangle"){
+        else if (shape === "Rectangle") {
             drawImage(maleRectangle)
         }
-        else if (shape === "Hourglass"){
+        else if (shape === "Hourglass") {
             drawImage(maleHourglass)
         }
         else {
@@ -85,11 +85,11 @@ function drawBodyshape() {
     }
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height)
-    } 
+    }
 }
 
-function drawEyes(){
-    if(eye === "Blue"){
+function drawEyes() {
+    if (eye === "Blue") {
         drawImage(eyeBlue)
     }
     else if(eye === "Green"){
@@ -103,6 +103,80 @@ function drawEyes(){
     }
 }
 
+function drawHair() {
+    if (hair === "Nohair") {
+
+    }
+    else if (hair === "Shorthair") {
+        if (haircolor === hairc1) {
+            drawImage(shortBlonde)
+        }
+        if (haircolor === hairc2) {
+            drawImage(shortBrown)
+        }
+        if (haircolor === hairc3) {
+            drawImage(shortRed)
+        }
+        if (haircolor === hairc4) {
+            drawImage(shortBlack)
+        }
+        if (haircolor === hairc5) {
+            drawImage(shortBlue)
+        }
+        if (haircolor === hairc6) {
+            drawImage(shortPink)
+        }
+        if (haircolor === hairc7) {
+            drawImage(shortGreen)
+        }
+    }
+    else if (hair === "Mediumhair") {
+        if (haircolor === hairc1) {
+            drawImage(mediumBlonde)
+        }
+        if (haircolor === hairc2) {
+            drawImage(mediumBrown)
+        }
+        if (haircolor === hairc3) {
+            drawImage(mediumRed)
+        }
+        if (haircolor === hairc4) {
+            drawImage(mediumBlack)
+        }
+        if (haircolor === hairc5) {
+            drawImage(mediumBlue)
+        }
+        if (haircolor === hairc6) {
+            drawImage(mediumPink)
+        }
+        if (haircolor === hairc7) {
+            drawImage(mediumGreen)
+        }
+    }
+    else if (hair === "Longhair") {
+        if (haircolor === hairc1) {
+            drawImage(longBlonde)
+        }
+        if (haircolor === hairc2) {
+            drawImage(longBrown)
+        }
+        if (haircolor === hairc3) {
+            drawImage(longRed)
+        }
+        if (haircolor === hairc4) {
+            drawImage(longBlack)
+        }
+        if (haircolor === hairc5) {
+            drawImage(longBlue)
+        }
+        if (haircolor === hairc6) {
+            drawImage(longPink)
+        }
+        if (haircolor === hairc7) {
+            drawImage(longGreen)
+        }
+    }
+}
 
 
 function drawAvatar() {

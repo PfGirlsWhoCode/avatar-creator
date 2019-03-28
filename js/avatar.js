@@ -30,28 +30,34 @@ femalePear.src = "img/female_pear.svg"
 var femaleTriangle = new Image()
 femaleTriangle.src = "img/female_triangle.svg"
 
-var eye1 = ""
-eye1.src = ""
+var eyeBlue =new Image()
+eyeBlue.src = "img/blue_eyes.svg"
 
-var eye2 = ""
-eye2.src = ""
+var eyeGreen = new Image()
+eyeGreen.src = "img/green_eyes.svg"
 
-function bodyshapee() {
+var eyeBrown = new Image()
+eyeBrown.src = "img/brown_eyes.svg"
+
+var eyeOgre = new Image()
+eyeOgre.src = "img/blue_ogre_eye.svg"
+
+function drawBodyshape() {
     if(gender === "Female"){
         if(shape ==="Triangle"){
-            drawBodyShape(femaleTriangle)
+            drawImage(femaleTriangle)
         } 
         else if(shape === "Pear"){
-            drawBodyShape(femalePear)
+            drawImage(femalePear)
         } 
         else if(shape === "Circle"){
-            drawBodyShape(femaleApple)
+            drawImage(femaleApple)
         }
         else if (shape ==="Rectangle"){
-            drawBodyShape(femaleRectangle)
+            drawImage(femaleRectangle)
         }
         else if (shape === "Hourglass"){
-            drawBodyShape(femaleHourglass)
+            drawImage(femaleHourglass)
         }
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -59,19 +65,19 @@ function bodyshapee() {
     }
     else if(gender === "Male"){
         if(shape ==="Triangle"){
-            drawBodyShape(maleTriangle)
+            drawImage(maleTriangle)
         } 
         else if(shape === "Pear"){
-            drawBodyShape(malePear)
+            drawImage(malePear)
         } 
         else if(shape === "Circle"){
-            drawBodyShape(maleApple)
+            drawImage(maleApple)
         }
         else if (shape ==="Rectangle"){
-            drawBodyShape(maleRectangle)
+            drawImage(maleRectangle)
         }
         else if (shape === "Hourglass"){
-            drawBodyShape(maleHourglass)
+            drawImage(maleHourglass)
         }
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -83,23 +89,28 @@ function bodyshapee() {
 }
 
 function drawEyes(){
-    if(eye === "eye1"){
-        drawBodyShape()
+    if(eye === "Blue"){
+        drawImage(eyeBlue)
     }
-    else if(eye === "eye2"){
-        drawBodyShape()
+    else if(eye === "Green"){
+        drawImage(eyeGreen)
     }
-    else {
-        ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
+    else if(eye === "Brown"){
+        drawImage(eyeBrown)
+    }
+    else if(eye === "Ogre"){
+        drawImage(eyeOgre)
     }
 }
+
+
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    bodyshapee()
+    drawBodyshape()
+    drawEyes()
 }
 
-function drawBodyShape(image) {
+function drawImage(image) {
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }
-var eyeImage = ""

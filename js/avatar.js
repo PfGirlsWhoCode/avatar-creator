@@ -243,12 +243,23 @@ function drawHair() {
     }
 }
 
+function drawFootwear() {
+    if (footwear === "noshoe") {
+    }
+    else if(footwear === "tennis"){
+    }
+    else if(footwear === "boots"){
+    }
+    else if(footwear === "socks"){
+    }
+}
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     drawBodyshape()
     drawEyes()
     drawHair()
+    drawFootwear()
 }
 
 function drawImage(image) {

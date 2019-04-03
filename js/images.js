@@ -43,4 +43,4 @@ var eyeOgre = new Image()
 eyeOgre.src = "img/blue_ogre_eye.svg"
 
 var dressHourglass = new Image()
-dressHourglass ="img/female_hourglass_dress"
+dressHourglass.src ="img/female_hourglass_dress.svg"

@@ -134,11 +134,19 @@ function drawHair() {
     }
 }
 
+function drawClothing() {
+    console.log(clothes)
+    if (clothes === "clothingdress") {
+        drawImage(dressHourglass)
+    }
+    console.log("test2")
+}
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     drawBodyshape()
     drawEyes()
+    drawClothing()
 }
 
 function drawImage(image) {

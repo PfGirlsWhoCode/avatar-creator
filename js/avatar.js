@@ -173,71 +173,71 @@ function drawHair() {
 
     }
     else if (hair === "Shorthair") {
-        if (haircolor === hairc1) {
+        if (haircolor === "blonde") {
             drawImage(shortBlonde)
         }
-        if (haircolor === hairc2) {
+        if (haircolor === "brown") {
             drawImage(shortBrown)
         }
-        if (haircolor === hairc3) {
+        if (haircolor === "red") {
             drawImage(shortRed)
         }
-        if (haircolor === hairc4) {
+        if (haircolor === "black") {
             drawImage(shortBlack)
         }
-        if (haircolor === hairc5) {
+        if (haircolor === "blue") {
             drawImage(shortBlue)
         }
-        if (haircolor === hairc6) {
+        if (haircolor === "pink") {
             drawImage(shortPink)
         }
-        if (haircolor === hairc7) {
+        if (haircolor === "green") {
             drawImage(shortGreen)
         }
     }
     else if (hair === "Mediumhair") {
-        if (haircolor === hairc1) {
+        if (haircolor === "blonde") {
             drawImage(mediumBlonde)
         }
-        if (haircolor === hairc2) {
+        if (haircolor === "brown") {
             drawImage(mediumBrown)
         }
-        if (haircolor === hairc3) {
+        if (haircolor === "red") {
             drawImage(mediumRed)
         }
-        if (haircolor === hairc4) {
+        if (haircolor === "black") {
             drawImage(mediumBlack)
         }
-        if (haircolor === hairc5) {
+        if (haircolor === "blue") {
             drawImage(mediumBlue)
         }
-        if (haircolor === hairc6) {
+        if (haircolor === "pink") {
             drawImage(mediumPink)
         }
-        if (haircolor === hairc7) {
+        if (haircolor === "green") {
             drawImage(mediumGreen)
         }
     }
     else if (hair === "Longhair") {
-        if (haircolor === hairc1) {
+        if (haircolor === "blonde") {
             drawImage(longBlonde)
         }
-        if (haircolor === hairc2) {
+        if (haircolor === "brown") {
             drawImage(longBrown)
         }
-        if (haircolor === hairc3) {
+        if (haircolor === "red") {
             drawImage(longRed)
         }
-        if (haircolor === hairc4) {
+        if (haircolor === "black") {
             drawImage(longBlack)
         }
-        if (haircolor === hairc5) {
+        if (haircolor === "blue") {
             drawImage(longBlue)
         }
-        if (haircolor === hairc6) {
+        if (haircolor === "pink") {
             drawImage(longPink)
         }
-        if (haircolor === hairc7) {
+        if (haircolor === "green") {
             drawImage(longGreen)
         }
     }
@@ -248,6 +248,7 @@ function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     drawBodyshape()
     drawEyes()
+    drawHair()
 }
 
 function drawImage(image) {

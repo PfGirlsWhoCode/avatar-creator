@@ -42,4 +42,8 @@ eyeBrown.src = "img/brown_eyes.svg"
 var eyeOgre = new Image()
 eyeOgre.src = "img/blue_ogre_eye.svg"
 
+var noses_triangle = new Image()
+noses_triangle.src = "img/noses_triangle.svg"
 
+var noses_flat = new Image()
+noses_flat.src = "img/noses_flat"

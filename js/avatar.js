@@ -133,12 +133,21 @@ function drawHair() {
         }
     }
 }
+function drawNose(){
+    if(noses === "Flat"){
+        drawImage(noseFlat)
+    }
+    else if(noses === "Triangle"){
+        drawImage(noseTriangle)
+    }
+}
 
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     drawBodyshape()
     drawEyes()
+    drawNose()
 }
 
 function drawImage(image) {

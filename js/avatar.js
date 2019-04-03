@@ -134,10 +134,10 @@ function drawHair() {
     }
 }
 function drawNose(){
-    if(noses === "Flat"){
+    if(nose === "Flat"){
         drawImage(noseFlat)
     }
-    else if(noses === "Triangle"){
+    else if(nose === "Triangle"){
         drawImage(noseTriangle)
     }
 }

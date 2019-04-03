@@ -41,3 +41,5 @@ eyeBrown.src = "img/brown_eyes.svg"
 
 var eyeOgre = new Image()
 eyeOgre.src = "img/blue_ogre_eye.svg"
+
+

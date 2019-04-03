@@ -43,7 +43,7 @@ var eyeOgre = new Image()
 eyeOgre.src = "img/blue_ogre_eye.svg"
 
 var dressHourglass = new Image()
-dressHourglass ="img/female_hourglass_dress"
+dressHourglass ="img/female_hourglass_dress.svg"
 
 var noseflat = new Image()
 noseflat = "img/noses_flat"

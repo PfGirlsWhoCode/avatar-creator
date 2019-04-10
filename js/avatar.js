@@ -143,11 +143,8 @@ function drawNose(){
 }
 
 function drawClothing() {
-    console.log(clothes)
-    if (clothes === "clothingdress") {
-        drawImage(dressHourglass)
-    }
-    console.log("test2")
+    img=clothing[gender][shape][clothes]
+    drawImage(img)
 }
 
 function drawFootwear() {
@@ -174,3 +171,5 @@ function drawAvatar() {
 function drawImage(image) {
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 }
+
+

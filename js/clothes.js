@@ -8,3 +8,15 @@ for (var i = 0; i < radios.length; i++) {
         drawAvatar()
     }
 }
+
+var dressHourglass = new Image()
+dressHourglass.src = "img/female_hourglass_dress.svg"
+
+var clothing = {
+    "Female": {
+        "hourglass": {
+            "dress": dressHourglass,
+            "suit": dressHourglass
+        }
+    }
+}

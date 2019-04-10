@@ -7,3 +7,11 @@ for (var i = 0; i < radios.length; i++) {
         drawAvatar()
     }
 }
+
+
+
+
+
+
+
+

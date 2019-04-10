@@ -44,3 +44,9 @@ eyeOgre.src = "img/blue_ogre_eye.svg"
 
 var dressHourglass = new Image()
 dressHourglass.src ="img/female_hourglass_dress.svg"
+
+var noseFlat = new Image()
+noseFlat = "img/noses_flat.svg"
+
+var noseTraingle = new Image()
+noseTriangle = "img/noses_average.svg"

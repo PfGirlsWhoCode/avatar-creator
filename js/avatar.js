@@ -133,6 +133,14 @@ function drawHair() {
         }
     }
 }
+function drawNose(){
+    if(nose === "Flat"){
+        drawImage(noseFlat)
+    }
+    else if(nose === "Triangle"){
+        drawImage(noseTriangle)
+    }
+}
 
 function drawClothing() {
     console.log(clothes)
@@ -147,6 +155,7 @@ function drawAvatar() {
     drawBodyshape()
     drawEyes()
     drawClothing()
+    drawNose()
 }
 
 function drawImage(image) {

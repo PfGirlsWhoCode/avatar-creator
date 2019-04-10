@@ -108,6 +108,3 @@ var longGreen = new Image()
 longGreen.src = "img/Green_long_hair.svg"
 
 //clothing 
-
-var dressHourglass = new Image()
-dressHourglass.src = "img/female_hourglass_dress.svg"

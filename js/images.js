@@ -63,7 +63,7 @@ var shortPink = new Image()
 shortPink.src = "img/pink_short_hair.svg"
 
 var shortGreen = new Image()
-shortGreen.src = "img/Green_short_hair.svg"
+shortGreen.src = "img/green_short_hair.svg"
 
 var mediumBlonde = new Image()
 mediumBlonde.src = "img/blonde_Medium_hair.svg"
@@ -105,6 +105,6 @@ var longPink = new Image()
 longPink.src = "img/pink_long_hair.svg"
 
 var longGreen = new Image()
-longGreen.src = "img/Green_long_hair.svg"
+longGreen.src = "img/green_long_hair.svg"
 
 //clothing 

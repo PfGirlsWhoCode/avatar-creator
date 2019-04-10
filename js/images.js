@@ -69,19 +69,19 @@ var mediumBlonde = new Image()
 mediumBlonde.src = "img/blonde_Medium_hair.svg"
 
 var mediumBrown = new Image()
-mediumBrown.src = "img/brown_medium_hair.svg"
+mediumBrown.src = "img/brown_Medium_hair.svg"
 
 var mediumBlack = new Image()
-mediumBlack.src = "img/black_medium_hair.svg"
+mediumBlack.src = "img/black_Medium_hair.svg"
 
 var mediumBlue = new Image()
-mediumBlue.src = "img/blue_medium_hair.svg"
+mediumBlue.src = "img/blue_Medium_hair.svg"
 
 var mediumRed = new Image()
-mediumRed.src = "img/red_medium_hair.svg"
+mediumRed.src = "img/red_Medium_hair.svg"
 
 var mediumPink = new Image()
-mediumPink.src = "img/pink_medium_hair.svg"
+mediumPink.src = "img/pink_Medium_hair.svg"
 
 var mediumGreen = new Image()
 mediumGreen.src = "img/green_Medium_hair.svg"

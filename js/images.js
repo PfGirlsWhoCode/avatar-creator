@@ -84,7 +84,7 @@ var mediumPink = new Image()
 mediumPink.src = "img/pink_medium_hair.svg"
 
 var mediumGreen = new Image()
-mediumGreen.src = "img/Green_medium_hair.svg"
+mediumGreen.src = "img/green_Medium_hair.svg"
 
 var longBlonde = new Image()
 longBlonde.src = "img/blonde_long_hair.svg"

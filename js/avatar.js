@@ -144,6 +144,7 @@ function drawNose(){
 
 function drawClothing() {
     img=clothing[gender][shape][clothes]
+    console.log (clothing[gender][shape][clothes])
     drawImage(img)
 }
 

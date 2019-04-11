@@ -13,7 +13,7 @@ dressHourglass.src = "img/female_hourglass_dress.svg"
 
 var clothing = {
     "Female": {
-        "hourglass": {
+        "Hourglass": {
             "clothingdress": dressHourglass,
             "clothingsuit": dressHourglass,
         },

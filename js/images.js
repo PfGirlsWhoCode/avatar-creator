@@ -107,4 +107,10 @@ longPink.src = "img/pink_long_hair.svg"
 var longGreen = new Image()
 longGreen.src = "img/green_long_hair.svg"
 
-//clothing 
+//noses
+
+var noseTriangle = new Image()
+noseTriangle.src = "img/noses_triangle.svg"
+
+var noseFlat = new Image()
+noseFlat.src = "img/noses_flat.svg"

@@ -63,28 +63,28 @@ var shortPink = new Image()
 shortPink.src = "img/pink_short_hair.svg"
 
 var shortGreen = new Image()
-shortGreen.src = "img/Green_short_hair.svg"
+shortGreen.src = "img/green_short_hair.svg"
 
 var mediumBlonde = new Image()
 mediumBlonde.src = "img/blonde_Medium_hair.svg"
 
 var mediumBrown = new Image()
-mediumBrown.src = "img/brown_medium_hair.svg"
+mediumBrown.src = "img/brown_Medium_hair.svg"
 
 var mediumBlack = new Image()
-mediumBlack.src = "img/black_medium_hair.svg"
+mediumBlack.src = "img/black_Medium_hair.svg"
 
 var mediumBlue = new Image()
-mediumBlue.src = "img/blue_medium_hair.svg"
+mediumBlue.src = "img/blue_Medium_hair.svg"
 
 var mediumRed = new Image()
-mediumRed.src = "img/red_medium_hair.svg"
+mediumRed.src = "img/red_Medium_hair.svg"
 
 var mediumPink = new Image()
-mediumPink.src = "img/pink_medium_hair.svg"
+mediumPink.src = "img/pink_Medium_hair.svg"
 
 var mediumGreen = new Image()
-mediumGreen.src = "img/Green_medium_hair.svg"
+mediumGreen.src = "img/green_Medium_hair.svg"
 
 var longBlonde = new Image()
 longBlonde.src = "img/blonde_long_hair.svg"
@@ -105,6 +105,12 @@ var longPink = new Image()
 longPink.src = "img/pink_long_hair.svg"
 
 var longGreen = new Image()
-longGreen.src = "img/Green_long_hair.svg"
+longGreen.src = "img/green_long_hair.svg"
 
-//clothing 
+//noses
+
+var noseTriangle = new Image()
+noseTriangle.src = "img/noses_triangle.svg"
+
+var noseFlat = new Image()
+noseFlat.src = "img/noses_flat.svg"

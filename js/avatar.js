@@ -144,7 +144,9 @@ function drawNose(){
 
 function drawClothing() {
     img=clothing[gender][shape][clothes]
-    drawImage(img)
+    if (img != undefined) {
+        drawImage(img)
+    }
 }
 
 function drawFootwear() {

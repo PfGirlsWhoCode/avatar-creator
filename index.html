@@ -4,113 +4,111 @@
 
 <head>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>PfGWC Avatar Maker</title>
-  <style>
-    .container {
-      position: absolute;
-      top: 0;
-      right: 0;
-      margin: 20px;
-     max-width:550px;
-     padding: 16px;
-     background-color: rgb(244, 201, 250);
-    }   
-    </style>
 </head>
 
 <body style="text-align: center;">
-  <h1>PfGWC Avatar Maker</h1>
+  <div class="container-fluid">
 
-  <canvas id="canvas" width="300" height="500"></canvas>
-  <div class="container">
-    <form name="formGender">
-      <h1>To make an avatar...</h1>
-      <h3>Choose a gender</h3>
-      Female <input type="radio" name="myradio" value="Female" />
-      Male <input type="radio" name="myradio" value="Male" />
-    </form>
+    <h1>PfGWC Avatar Maker</h1>
 
-    <form name="formShape">
-      <h3>Choose a body shape</h3>
-      Triangle <input type="radio" name="myradio" value="Triangle" />
-      Pear <input type="radio" name="myradio" value="Pear" />
-      Circle <input type="radio" name="myradio" value="Circle" />
-      Rectangle <input type="radio" name="myradio" value="Rectangle" />
-      Hourglass <input type="radio" name="myradio" value="Hourglass" />
-    </form>
+    <div class="row">
+      <div class="col-sm">
+        <!-- Nothing here -->
+      </div>
+      <div class="col-sm">
+        <!-- Where the avatar is drawn -->
+        <canvas id="avatarCanvas" width="300" height="500"></canvas>
+      </div>
+      <div class="col-sm" style="background-color: rgb(244, 201, 250);">
+        <!-- All of the Avatar options -->
+        <h1>To make an avatar...</h1>
+        <form name="formGender">
+          <h3>Choose a gender</h3>
+          Female <input type="radio" name="myradio" value="Female" />
+          Male <input type="radio" name="myradio" value="Male" />
+        </form>
 
-    <form name="formskincolor">
-      <h3>Choose a skin color</h3>
-      <p>(Not done yet)</p>
-    </form>
+        <form name="formShape">
+          <h3>Choose a body shape</h3>
+          Triangle <input type="radio" name="myradio" value="Triangle" />
+          Pear <input type="radio" name="myradio" value="Pear" />
+          Circle <input type="radio" name="myradio" value="Circle" />
+          Rectangle <input type="radio" name="myradio" value="Rectangle" />
+          Hourglass <input type="radio" name="myradio" value="Hourglass" />
+        </form>
 
-    <form name="formeyes">
-      <h3>Choose a eye type</h3>
-      Blue <input type="radio" name="myradio" value="Blue" />
-      Green <input type="radio" name="myradio" value="Green" />
-      Brown <input type="radio" name="myradio" value="Brown" />
-      Ogre <input type="radio" name="myradio" value="Ogre" />
-    </form>
+        <form name="formskincolor">
+          <h3>Choose a skin color</h3>
+          <p>(Not done yet)</p>
+        </form>
 
-    <form name="formnoses">
-      <h3>Choose a nose shape</h3>
-      Triangle<input type="radio" name="myradio" value="Triangle" />
-      Flat<input type="radio" name="myradio" value="Flat" />
-    </form>
+        <form name="formeyes">
+          <h3>Choose a eye type</h3>
+          Blue <input type="radio" name="myradio" value="Blue" />
+          Green <input type="radio" name="myradio" value="Green" />
+          Brown <input type="radio" name="myradio" value="Brown" />
+          Ogre <input type="radio" name="myradio" value="Ogre" />
+        </form>
 
-    <form name="formHair">
-      <h3>Choose a hair length</h3>
-      No hair <input type="radio" name="myradio" value="Nohair" />
-      Short <input type="radio" name="myradio" value="Shorthair" />
-      Medium <input type="radio" name="myradio" value="Mediumhair" />
-      Long <input type="radio" name="myradio" value="Longhair" />
-    </form>
+        <form name="formnoses">
+          <h3>Choose a nose shape</h3>
+          Triangle<input type="radio" name="myradio" value="Triangle" />
+          Flat<input type="radio" name="myradio" value="Flat" />
+        </form>
 
-    <form name="formHaircolor">
-      <h3>Choose a hair color</h3>
-      Blonde <input type="radio" name="myradio" value="blonde" />
-      Brown <input type="radio" name="myradio" value="brown" />
-      Red <input type="radio" name="myradio" value="red" />
-      Black <input type="radio" name="myradio" value="black" />
-      Blue <input type="radio" name="myradio" value="blue" />
-      Pink <input type="radio" name="myradio" value="pink" />
-      Green <input type="radio" name="myradio" value="green" />
-    </form>
+        <form name="formHair">
+          <h3>Choose a hair length</h3>
+          No hair <input type="radio" name="myradio" value="Nohair" />
+          Short <input type="radio" name="myradio" value="Shorthair" />
+          Medium <input type="radio" name="myradio" value="Mediumhair" />
+          Long <input type="radio" name="myradio" value="Longhair" />
+        </form>
 
-    <form name="formclothing">
-      <h3>Choose some Clothing </h3>
-      Dress <input type="radio" name="myradio" value="clothingdress" />
-      Suit <input type="radio" name="myradio" value="clothingsuit" />
-      T-Shirt & Jeans <input type="radio" name="myradio" value="clothingtshirtjeans" />
-      Athletic Wear <input type="radio" name="myradio" value="clothingathletic" />
-      Pajamas <input type="radio" name="myradio" value="clothingpajamas" />
+        <form name="formHaircolor">
+          <h3>Choose a hair color</h3>
+          Blonde <input type="radio" name="myradio" value="blonde" />
+          Brown <input type="radio" name="myradio" value="brown" />
+          Red <input type="radio" name="myradio" value="red" />
+          Black <input type="radio" name="myradio" value="black" />
+          Blue <input type="radio" name="myradio" value="blue" />
+          Pink <input type="radio" name="myradio" value="pink" />
+          Green <input type="radio" name="myradio" value="green" />
+        </form>
 
-    </form>
+        <form name="formclothing">
+          <h3>Choose some Clothing </h3>
+          Dress <input type="radio" name="myradio" value="clothingdress" />
+          Suit <input type="radio" name="myradio" value="clothingsuit" />
+          T-Shirt & Jeans <input type="radio" name="myradio" value="clothingtshirtjeans" />
+          Athletic Wear <input type="radio" name="myradio" value="clothingathletic" />
+          Pajamas <input type="radio" name="myradio" value="clothingpajamas" />
+        </form>
 
-    <form name="formFootwear">
-      <h3>Choose footwear</h3>
-      Barefoot <input type="radio" name="myradio" value="noshoe" />
-      Tennis shoes <input type="radio" name="myradio" value="tennis" />
-      Boots <input type="radio" name="myradio" value="boots" />
-      Socks <input type="radio" name="myradio" value="socks" />
-    </form>
+        <form name="formFootwear">
+          <h3>Choose footwear</h3>
+          Barefoot <input type="radio" name="myradio" value="noshoe" />
+          Tennis shoes <input type="radio" name="myradio" value="tennis" />
+          Boots <input type="radio" name="myradio" value="boots" />
+          Socks <input type="radio" name="myradio" value="socks" />
+        </form>
 
-  </div>
+      </div>
+    </div>
 
-
-
-  <!-- Javascript files -->
-  <script src="js/canvas.js"></script>
-  <script src="js/images.js"></script>
-  <script src="js/avatar.js"></script>
-  <script src="js/bodyshape.js"></script>
-  <script src="js/gender.js"></script>
-  <script src="js/eye.js"></script>
-  <script src="js/clothes.js"></script>
-  <script src="js/hair.js"></script>
-  <script src="js/nose.js"></script>
-  <script src="js/footwear.js"></script>
+    <!-- Javascript files -->
+    <script src="js/canvas.js"></script>
+    <script src="js/images.js"></script>
+    <script src="js/avatar.js"></script>
+    <script src="js/bodyshape.js"></script>
+    <script src="js/gender.js"></script>
+    <script src="js/eye.js"></script>
+    <script src="js/clothes.js"></script>
+    <script src="js/hair.js"></script>
+    <script src="js/nose.js"></script>
+    <script src="js/footwear.js"></script>
 </body>
 
 </html>

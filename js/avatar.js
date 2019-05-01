@@ -192,7 +192,7 @@ function drawAvatar() {
     drawEyes()
     drawNose()
     drawHair()
- //   drawClothing()
+    drawClothing()
     drawFootwear()
 }
 

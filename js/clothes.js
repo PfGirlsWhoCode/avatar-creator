@@ -10,6 +10,11 @@ for (var i = 0; i < radios.length; i++) {
 
 var dressHourglass = new Image()
 dressHourglass.src = "img/female_hourglass_dress.svg"
+var dressPear = new Image()
+dressPear.src = "img/female_pear_dress.svg"
+var dressRectangle = new Image()
+dressRectangle = "img/female_rectangle_dress.svg"
+
 
 var clothing = {
     "Female": {
@@ -17,5 +22,12 @@ var clothing = {
             "clothingdress": dressHourglass,
             "clothingsuit": dressHourglass,
         },
+        "Pear":{
+            "clothingdress": dressPear,
+        },
+        "Rectangle":{
+            "clothingdress": dressRectangle,
+        },
     },
 };
+

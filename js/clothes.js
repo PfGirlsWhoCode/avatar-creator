@@ -106,10 +106,5 @@ var clothing = {
             "clothingdress": dressRectangle,
         },
     },
-<<<<<<< HEAD
-};
-
-=======
 },
 };
->>>>>>> f84e2a4dd1cbc2ea2e7b8214831cb74ef7fb3789

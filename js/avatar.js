@@ -45,100 +45,120 @@ function drawBodyshape() {
 }
 
 function drawEyes() {
-    if (eye === "Blue") {
-        drawImage(eyeBlue)
+    if ( ((gender === "") || (shape === "")) && (eye !== "") ){
+        alert("Bodystyle and gender must be chosen before eyes.")
+        //eye = ""
     }
-    else if(eye === "Green"){
-        drawImage(eyeGreen)
-    }
-    else if(eye === "Brown"){
-        drawImage(eyeBrown)
-    }
-    else if(eye === "Ogre"){
-        drawImage(eyeOgre)
+    else{
+        if (eye === "Blue") {
+            drawImage(eyeBlue)
+        }
+        else if(eye === "Green"){
+            drawImage(eyeGreen)
+        }
+        else if(eye === "Brown"){
+            drawImage(eyeBrown)
+        }
+        else if(eye === "Ogre"){
+            drawImage(eyeOgre)
+        }
     }
 }
 
 function drawHair() {
-    if (hair === "Nohair") {
-
+    if (( (gender === "") || (shape === "")) && ((hair != "") || (haircolor !== "")) ){
+        alert("Bodystyle and gender must be chosen before hair.")
+       // hair = ""
+      //  haircolor = ""
     }
-    else if (hair === "Shorthair") {
-        if (haircolor === "blonde") {
-            drawImage(shortBlonde)
+    else
+    {
+        if (hair === "Nohair") {
+        
         }
-        if (haircolor === "brown") {
-            drawImage(shortBrown)
+        else if (hair === "Shorthair") {
+            if (haircolor === "blonde") {
+                drawImage(shortBlonde)
+            }
+            if (haircolor === "brown") {
+                drawImage(shortBrown)
+            }
+            if (haircolor === "red") {
+                drawImage(shortRed)
+            }
+            if (haircolor === "black") {
+                drawImage(shortBlack)
+            }
+            if (haircolor === "blue") {
+                drawImage(shortBlue)
+            }
+            if (haircolor === "pink") {
+                drawImage(shortPink)
+            }
+            if (haircolor === "green") {
+                drawImage(shortGreen)
+            }
         }
-        if (haircolor === "red") {
-            drawImage(shortRed)
+        else if (hair === "Mediumhair") {
+            if (haircolor === "blonde") {
+                drawImage(mediumBlonde)
+            }
+            if (haircolor === "brown") {
+                drawImage(mediumBrown)
+            }
+            if (haircolor === "red") {
+                drawImage(mediumRed)
+            }
+            if (haircolor === "black") {
+                drawImage(mediumBlack)
+            }
+            if (haircolor === "blue") {
+                drawImage(mediumBlue)
+            }
+            if (haircolor === "pink") {
+                drawImage(mediumPink)
+            }
+            if (haircolor === "green") {
+                drawImage(mediumGreen)
+            }
         }
-        if (haircolor === "black") {
-            drawImage(shortBlack)
-        }
-        if (haircolor === "blue") {
-            drawImage(shortBlue)
-        }
-        if (haircolor === "pink") {
-            drawImage(shortPink)
-        }
-        if (haircolor === "green") {
-            drawImage(shortGreen)
-        }
-    }
-    else if (hair === "Mediumhair") {
-        if (haircolor === "blonde") {
-            drawImage(mediumBlonde)
-        }
-        if (haircolor === "brown") {
-            drawImage(mediumBrown)
-        }
-        if (haircolor === "red") {
-            drawImage(mediumRed)
-        }
-        if (haircolor === "black") {
-            drawImage(mediumBlack)
-        }
-        if (haircolor === "blue") {
-            drawImage(mediumBlue)
-        }
-        if (haircolor === "pink") {
-            drawImage(mediumPink)
-        }
-        if (haircolor === "green") {
-            drawImage(mediumGreen)
-        }
-    }
-    else if (hair === "Longhair") {
-        if (haircolor === "blonde") {
-            drawImage(longBlonde)
-        }
-        if (haircolor === "brown") {
-            drawImage(longBrown)
-        }
-        if (haircolor === "red") {
-            drawImage(longRed)
-        }
-        if (haircolor === "black") {
-            drawImage(longBlack)
-        }
-        if (haircolor === "blue") {
-            drawImage(longBlue)
-        }
-        if (haircolor === "pink") {
-            drawImage(longPink)
-        }
-        if (haircolor === "green") {
-            drawImage(longGreen)
+        else if (hair === "Longhair") {
+            if (haircolor === "blonde") {
+                drawImage(longBlonde)
+            }
+            if (haircolor === "brown") {
+                drawImage(longBrown)
+            }
+            if (haircolor === "red") {
+                drawImage(longRed)
+            }
+            if (haircolor === "black") {
+                drawImage(longBlack)
+            }
+            if (haircolor === "blue") {
+                drawImage(longBlue)
+            }
+            if (haircolor === "pink") {
+                drawImage(longPink)
+            }
+            if (haircolor === "green") {
+                drawImage(longGreen)
+            }
         }
     }
 }
 function drawNose(){
-    if(nose === "Flat"){
-        drawImage(noseFlat)
+    if ( ((gender === "") || (shape === "")) && (nose !== "") ){
+        alert("Bodystyle and gender must be chosen before nose.")
+       // nose = ""
     }
-    else if(nose === "Triangle"){
-        drawImage(noseTriangle)
+    else{
+        if(nose === "Flat"){
+            drawImage(noseFlat)
+        }
+        else if(nose === "Triangle"){
+            drawImage(noseTriangle)
+        }
     }
 }
 
@@ -172,7 +192,7 @@ function drawAvatar() {
     drawEyes()
     drawNose()
     drawHair()
-    drawClothing()
+ //   drawClothing()
     drawFootwear()
 }
 

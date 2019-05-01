@@ -12,15 +12,92 @@ var dressHourglass = new Image()
 dressHourglass.src = "img/female_hourglass_dress.svg"
 var dressApple = new Image()
 dressApple.src = "img/female_apple_dress.svg"
+var dressRectangle = new Image()
+dressRectangle = "img/female_rectangle_dress.svg"
 
 var clothing = {
     "Female": {
         "Hourglass": {
             "clothingdress": dressHourglass,
-            "clothingsuit": dressHourglass,
+
+
+
+
+            "clothingswim": null,
+        },
+        "Triangle": {
+
+    
+    
+    
+
+            "clothingswim": null,
+        },
+        "Pear": {
+ 
+    
+    
+    
+    
+            "clothingswim": null,
         },
         "Apple": {
             "clothingdress": dressApple,
+    
+    
+    
+    
+            "clothingswim": null,
+        },
+        "Rectangle": {
+            "clothingdress": dressRectangle,
+    
+    
+    
+    
+            "clothingswim": null,
+        },
+    },
+    "Male": {
+        "Hourglass": {
+ 
+
+
+
+
+            "clothingswim": null,
+        },
+        "Triangle": {
+
+    
+    
+    
+    
+            "clothingswim": null,
+        },
+        "Pear": {
+     
+        
+        
+        
+        
+            "clothingswim": null,
+        },
+        "Circle": {
+     
+        
+        
+        
+        
+            "clothingswim": null,
+        },
+        "Rectangle": {
+     
+        
+        
+        
+        
+            "clothingswim": null,
         },
     },
 };

@@ -1,8 +1,8 @@
 var clothes = ""
 
 var radios = document.forms["formclothing"].elements["myradio"];
-for (var i = 0; i < radios.length; i++) { 
-    radios[i].onclick = function() {
+for (var i = 0; i < radios.length; i++) {
+    radios[i].onclick = function () {
         clothes = this.value
         drawAvatar()
     }
@@ -10,11 +10,10 @@ for (var i = 0; i < radios.length; i++) {
 
 var dressHourglass = new Image()
 dressHourglass.src = "img/female_hourglass_dress.svg"
-var dressPear = new Image()
-dressPear.src = "img/female_pear_dress.svg"
+var dressApple = new Image()
+dressApple.src = "img/female_apple_dress.svg"
 var dressRectangle = new Image()
 dressRectangle = "img/female_rectangle_dress.svg"
-
 
 var clothing = {
     "Female": {
@@ -42,8 +41,8 @@ var clothing = {
     
             "clothingswim": null,
         },
-        "Circle": {
- 
+        "Apple": {
+            "clothingdress": dressApple,
     
     
     
@@ -51,13 +50,14 @@ var clothing = {
             "clothingswim": null,
         },
         "Rectangle": {
- 
+            "clothingdress": dressRectangle,
     
     
     
     
             "clothingswim": null,
         },
+    },
     "Male": {
         "Hourglass": {
  
@@ -99,12 +99,9 @@ var clothing = {
         
             "clothingswim": null,
         },
-        "Pear":{
-            "clothingdress": dressPear,
-        },
-        "Rectangle":{
-            "clothingdress": dressRectangle,
-        },
     },
+<<<<<<< HEAD
 },
+=======
+>>>>>>> 169576b3ecfac4b58b64d8ac437495bc45e3d0ed
 };

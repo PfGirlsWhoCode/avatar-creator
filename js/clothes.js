@@ -15,7 +15,85 @@ var clothing = {
     "Female": {
         "Hourglass": {
             "clothingdress": dressHourglass,
-            "clothingsuit": dressHourglass,
+
+
+
+
+            "clothingswim": null,
+        },
+        "Triangle": {
+
+    
+    
+    
+
+            "clothingswim": null,
+        },
+        "Pear": {
+ 
+    
+    
+    
+    
+            "clothingswim": null,
+        },
+        "Circle": {
+ 
+    
+    
+    
+    
+            "clothingswim": null,
+        },
+        "Rectangle": {
+ 
+    
+    
+    
+    
+            "clothingswim": null,
+        },
+    "Male": {
+        "Hourglass": {
+ 
+
+
+
+
+            "clothingswim": null,
+        },
+        "Triangle": {
+
+    
+    
+    
+    
+            "clothingswim": null,
+        },
+        "Pear": {
+     
+        
+        
+        
+        
+            "clothingswim": null,
+        },
+        "Circle": {
+     
+        
+        
+        
+        
+            "clothingswim": null,
+        },
+        "Rectangle": {
+     
+        
+        
+        
+        
+            "clothingswim": null,
         },
     },
+},
 };

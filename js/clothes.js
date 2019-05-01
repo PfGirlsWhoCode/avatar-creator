@@ -100,8 +100,4 @@ var clothing = {
             "clothingswim": null,
         },
     },
-<<<<<<< HEAD
-},
-=======
->>>>>>> 169576b3ecfac4b58b64d8ac437495bc45e3d0ed
 };

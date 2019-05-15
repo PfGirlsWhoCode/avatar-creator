@@ -16,6 +16,8 @@ var dressRectangle = new Image()
 dressRectangle.src = "img/female_rectangle_dress.svg"
 var athleticApple = new Image()
 athleticApple.src = "img/female_apple_athletic_wear.svg"
+var athleticTriangle = new Image()
+athleticTriangle.src = "img/female_Triangle_athletic_wear.svg"
 
 var clothing = {
     "Female": {
@@ -29,40 +31,39 @@ var clothing = {
         },
         "Triangle": {
 
-    
-    
-    
+            "clothingathletic": athleticTriangle,
+
 
             "clothingswim": null,
         },
         "Pear": {
- 
-    
-    
-    
-    
+
+
+
+
+
             "clothingswim": null,
         },
         "Apple": {
             "clothingdress": dressApple,
             "clothingathletic": athleticApple,
-    
-    
-    
+
+
+
             "clothingswim": null,
         },
         "Rectangle": {
             "clothingdress": dressRectangle,
-    
-    
-    
-    
+
+
+
+
             "clothingswim": null,
         },
     },
     "Male": {
         "Hourglass": {
- 
+
 
 
 
@@ -71,34 +72,34 @@ var clothing = {
         },
         "Triangle": {
 
-    
-    
-    
-    
+
+
+
+
             "clothingswim": null,
         },
         "Pear": {
-     
-        
-        
-        
-        
+
+
+
+
+
             "clothingswim": null,
         },
         "Circle": {
-     
-        
-        
-        
-        
+
+
+
+
+
             "clothingswim": null,
         },
         "Rectangle": {
-     
-        
-        
-        
-        
+
+
+
+
+
             "clothingswim": null,
         },
     },

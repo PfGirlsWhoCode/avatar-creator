@@ -75,19 +75,11 @@ var clothing = {
             "clothingswim": null,
         },
         "Triangle": {
-<<<<<<< HEAD
             "clothingdress" : maleTriangleDress,
     
     
     
     
-=======
-
-
-
-
-
->>>>>>> 895839f85539b64470f69939b50fdf346140f9e0
             "clothingswim": null,
         },
         "Pear": {

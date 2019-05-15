@@ -22,6 +22,7 @@ function drawBodyshape() {
     else if (gender === "Male") {
         if (shape === "Triangle") {
             drawImage(maleTriangle)
+            console.log(maleTriangle)
         }
         else if (shape === "Pear") {
             drawImage(malePear)

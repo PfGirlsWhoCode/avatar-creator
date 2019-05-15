@@ -17,7 +17,7 @@ dressRectangle.src = "img/female_rectangle_dress.svg"
 var athleticApple = new Image()
 athleticApple.src = "img/female_apple_athletic_wear.svg"
 var maleDressHourglass = new Image()
-maleDressHourglass = "img/male_hourglass_dress.svg"
+maleDressHourglass.src = "img/male_hourglass_dress.svg"
 
 var clothing = {
     "Female": {
@@ -64,7 +64,7 @@ var clothing = {
     },
     "Male": {
         "Hourglass": {
-            
+            "clothingdress": maleDressHourglass,
 
 
 

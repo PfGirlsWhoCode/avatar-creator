@@ -1,57 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   id="Layer_1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 300 500"
-   style="enable-background:new 0 0 300 500;"
-   xml:space="preserve"
-   sodipodi:docname="brown_short_hair.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-   id="metadata133"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs131" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1920"
-   inkscape:window-height="1017"
-   id="namedview129"
-   showgrid="false"
-   inkscape:zoom="1.6290957"
-   inkscape:cx="150"
-   inkscape:cy="250"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
-<style
-   type="text/css"
-   id="style124">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 500" style="enable-background:new 0 0 300 500;" xml:space="preserve">
+<style type="text/css">
 	.st0{fill:#4A2500;}
 </style>
-<path
-   class="st0"
-   d="M135.2,58.5c-0.7-11.7-8.2-22.9-6.3-34.8c0.2-1.4,0.9-2.7-1.6-3.1c-5.9-0.8-2.1-2.9-0.3-3.5  c5.6-2,3.3-4.2-0.2-7.1c4.7-0.8,8.9-0.1,12.4-1.8c6.1-2.9,19.1-2.6,25.2-3.7c10-1.8,14.2,8.3,22.6,5.2c4,15.7-2.4,30.1-6.1,44.9  c-2.8-4.9-5.9-9.7-7.2-15c-1.7-8.7-1.4-8.7-12.6-9.5c-15.7-1.2-15.7-0.3-19.8,11.3C139.6,46.9,138.7,53.1,135.2,58.5z"
-   id="path126" />
-<path
-   style="fill:#502d16;fill-opacity:1;stroke-width:0.61383748"
-   d="m 133.89253,50.414703 c -0.92527,-3.631495 -2.37452,-9.088759 -3.22057,-12.127255 -1.15569,-4.150552 -1.53879,-7.007138 -1.54035,-11.485793 l -0.002,-5.961256 -2.47388,-0.666144 c -2.91958,-0.786164 -2.7301,-1.377819 0.96471,-3.012207 2.14394,-0.948369 2.73684,-1.529951 2.73684,-2.684609 0,-0.810685 -0.54594,-1.968041 -1.2132,-2.571903 -1.753,-1.58644 -1.00714,-2.1615313 2.80338,-2.1615313 1.84759,0 4.93884,-0.5287881 6.86945,-1.1750847 5.10404,-1.7086435 9.17951,-2.3437343 20.54952,-3.2022849 l 10.14094,-0.765744 5.95392,2.8784755 c 4.3189,2.0880076 6.69424,2.8784754 8.64979,2.8784754 2.41727,0 2.74464,0.174442 3.16793,1.688053 0.82253,2.941239 0.40337,15.544879 -0.66858,20.103178 -1.71015,7.272124 -5.59424,21.166092 -5.91848,21.171276 -0.92788,0.01484 -5.73961,-10.464081 -6.91521,-15.059875 -1.77599,-6.942919 -2.43585,-7.457301 -10.57915,-8.246843 -16.47987,-1.597822 -18.46238,-0.554972 -22.14715,11.649923 -5.34723,17.711344 -4.98707,17.271022 -7.15783,8.751149 z"
-   id="path135"
-   inkscape:connector-curvature="0" /></svg>
+<g id="Layer_3">
+</g>
+<path class="st0" d="M126.3,47.1c-0.7-9.7-8.5-19-6.6-28.8c0.2-1.2,0.9-2.2-1.7-2.6c-6.2-0.7-2.2-2.4-0.3-2.9
+	c5.8-1.7,3.4-3.5-0.2-5.9c4.9-0.7,9.3-0.1,12.9-1.5c6.4-2.4,19.9-2.2,26.3-3.1c10.4-1.5,14.8,6.9,23.6,4.3c4.2,13-2.5,24.9-6.4,37.2
+	c-2.9-4.1-6.2-8-7.5-12.4c-1.8-7.2-1.5-7.2-13.1-7.9c-16.4-1-16.4-0.2-20.6,9.4C130.9,37.5,129.9,42.6,126.3,47.1z"/>
+</svg>

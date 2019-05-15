@@ -13,7 +13,11 @@ dressHourglass.src = "img/female_hourglass_dress.svg"
 var dressApple = new Image()
 dressApple.src = "img/female_apple_dress.svg"
 var dressRectangle = new Image()
-dressRectangle = "img/female_rectangle_dress.svg"
+dressRectangle.src = "img/female_rectangle_dress.svg"
+var athleticApple = new Image()
+athleticApple.src = "img/female_apple_athletic_wear.svg"
+var maleDressHourglass = new Image()
+maleDressHourglass.src = "img/male_hourglass_dress.svg"
 
 var clothing = {
     "Female": {
@@ -43,7 +47,7 @@ var clothing = {
         },
         "Apple": {
             "clothingdress": dressApple,
-    
+            "clothingathletic": athleticApple,
     
     
     
@@ -60,7 +64,7 @@ var clothing = {
     },
     "Male": {
         "Hourglass": {
- 
+            "clothingdress": maleDressHourglass,
 
 
 

@@ -6,7 +6,7 @@ function drawBodyshape() {
         else if (shape === "Pear") {
             drawImage(femalePear)
         }
-        else if (shape === "Circle") {
+        else if (shape === "Apple") {
             drawImage(femaleApple)
         }
         else if (shape === "Rectangle") {
@@ -26,7 +26,7 @@ function drawBodyshape() {
         else if (shape === "Pear") {
             drawImage(malePear)
         }
-        else if (shape === "Circle") {
+        else if (shape === "Apple") {
             drawImage(maleApple)
         }
         else if (shape === "Rectangle") {
@@ -163,9 +163,15 @@ function drawNose(){
 }
 
 function drawClothing() {
-    img=clothing[gender][shape][clothes]
-    if (img != undefined) {
-        drawImage(img)
+    g = clothing[gender]
+    if (g != undefined) {
+        s = g[shape]
+        if (s != undefined) {
+            img = s[clothes]
+            if (img != undefined) {
+                drawImage(img)
+            }
+        }
     }
 }
 
@@ -186,7 +192,7 @@ function drawAvatar() {
     drawEyes()
     drawNose()
     drawHair()
- //   drawClothing()
+    drawClothing()
     drawFootwear()
 }
 

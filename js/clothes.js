@@ -55,7 +55,7 @@ var clothing = {
             "clothingdress" : femalePearDress,
             "clothingtshirtjeans" : femalePearTshirt,
             "clothingathletic" : femalePearAthletic,
-
+            "clothingsuit" : femalePearSuit,
         },
         "Apple": {
             "clothingdress": dressApple,

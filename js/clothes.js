@@ -38,6 +38,9 @@ femalePearTshirt.src = "img/female_pear_tshirtjeans.svg"
 var femalePearAthletic = new Image()
 femalePearAthletic.src = "img/female_pear_athletic.svg"
 
+var femalePearSuit = new Image()
+femalePearSuit.src = "img/female_pear_suit.svg"
+
 var clothing = {
     "Female": {
         "Hourglass": {

@@ -43,67 +43,39 @@ var clothing = {
         "Hourglass": {
             "clothingdress": dressHourglass,
 
-
-
-
-            "clothingswim": null,
         },
         "Triangle": {
-
             "clothingathletic": athleticTriangle,
 
-
-            "clothingswim": null,
         },
         "Pear": {
             "clothingdress" : femalePearDress,
             "clothingtshirtjeans" : femalePearTshirt,
             "clothingathletic" : femalePearAthletic,
 
-
-            "clothingswim": null,
         },
         "Apple": {
             "clothingdress": dressApple,
             "clothingathletic": athleticApple,
 
-
-
-            "clothingswim": null,
         },
         "Rectangle": {
             "clothingdress": dressRectangle,
 
-
-
-
-            "clothingswim": null,
         },
     },
     "Male": {
         "Hourglass": {
             "clothingdress": maleDressHourglass,
 
-
-
-
-            "clothingswim": null,
         },
         "Triangle": {
             "clothingdress" : maleTriangleDress,
     
-    
-    
-    
-            "clothingswim": null,
         },
         "Pear": {
 
 
-
-
-
-            "clothingswim": null,
         },
         "Circle": {
 
@@ -111,7 +83,7 @@ var clothing = {
 
 
 
-            "clothingswim": null,
+            
         },
         "Rectangle": {
 
@@ -119,7 +91,7 @@ var clothing = {
 
 
 
-            "clothingswim": null,
+            
         },
     },
 };

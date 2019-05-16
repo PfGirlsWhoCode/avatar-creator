@@ -33,7 +33,7 @@ var femalePearDress = new Image()
 femalePearDress.src = "img/female_pear_dress.svg"
 
 var femalePearTshirt = new Image()
-femalePearTshirt.src = "female_pear_tshirtjeans.svg"
+femalePearTshirt.src = "img/female_pear_tshirtjeans.svg"
 
 var clothing = {
     "Female": {

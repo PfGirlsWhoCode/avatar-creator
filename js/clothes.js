@@ -51,12 +51,15 @@ var clothing = {
     "Female": {
         "Hourglass": {
             "clothingdress": dressHourglass,
-
+            "clothingathletic" : null,
+            "clothingsuit" : null,
+            "clothingshirtjeans" : null,
         },
         "Triangle": {
             "clothingathletic": athleticTriangle,
             "clothingdress" : femaleTriangleDress,
             "clothingsuit" : femaleTriangleSuit,
+            "clothingshirtjeans" : null,
         },
         "Pear": {
             "clothingdress" : femalePearDress,
@@ -67,41 +70,46 @@ var clothing = {
         "Apple": {
             "clothingdress": dressApple,
             "clothingathletic": athleticApple,
-
+            "clothingshirtjeans": null,
+            "clothingsuit" :null,
         },
         "Rectangle": {
             "clothingdress": dressRectangle,
-
+            "clothingsuit" :null,
+            "clothingshirtjeans" : null,
+            "clothingathletic" : null,
         },
     },
     "Male": {
         "Hourglass": {
             "clothingdress": maleDressHourglass,
-
+            "clothingsuit" : null,
+            "clothingathletic" : null,
+            "clothingshirtjeans" : null,
         },
         "Triangle": {
             "clothingdress" : maleTriangleDress,
-    
+            "clothingsuit" : null,
+            "clothingshirtjeans" : null,
+            "clothingathletic": null,
         },
         "Pear": {
-
-
+            "clothingdress": null,
+            "clothingsuit": null,
+            "clothingathletic": null,
+            "clothingshirtjeans": null,
         },
         "Circle": {
-
-
-
-
-
-            
+            "clothingdress": null,
+            "clothingsuit": null,
+            "clothingshirtjeans": null,
+            "clothingathletic": null,
         },
         "Rectangle": {
-
-
-
-
-
-            
+            "clothingdress": null,
+            "clothingsuit": null,
+            "clothingathletic": null,
+            "clothingshirtjeans": null,
         },
     },
 };

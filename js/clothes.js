@@ -47,12 +47,15 @@ femaleTriangleDress.src = "img/female_triangle_dress.svg"
 var femaleTriangleSuit = new Image()
 femaleTriangleSuit.src = "img/female_triangle_suit.svg"
 
+var femaleHourglassSuit = new Image()
+femaleHourglassSuit.src = "img/female_hourglass_suit"
+
 var clothing = {
     "Female": {
         "Hourglass": {
             "clothingdress": dressHourglass,
             "clothingathletic" : null,
-            "clothingsuit" : null,
+            "clothingsuit" : femaleHourglassSuit,
             "clothingshirtjeans" : null,
         },
         "Triangle": {

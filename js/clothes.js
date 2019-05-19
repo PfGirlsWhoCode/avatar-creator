@@ -62,8 +62,8 @@ femaleRectangleAthletic.src = "img/female_rectangle_athletic.svg"
 var femaleHourglassAthletic = new Image()
 femaleHourglassAthletic.src = "img/female_hourglass_athletic.svg"
 
-var femaleTriangleTshirtjeans = new Image()
-femaleTriangleTshirtjeans.src = "img/female_triangle_tshirtjeans.svg"
+var femaleTriangleTShirtJeans = new Image()
+femaleTriangleTShirtJeans.src = "img/female_triangle_tshirtjeans.svg"
 
 var clothing = {
     "Female": {
@@ -77,7 +77,7 @@ var clothing = {
             "clothingathletic": athleticTriangle,
             "clothingdress" : femaleTriangleDress,
             "clothingsuit" : femaleTriangleSuit,
-            "clothingshirtjeans" : femaleTriangleTshirtjeans,
+            "clothingshirtjeans" : femaleTriangleTShirtJeans,
         },
         "Pear": {
             "clothingdress" : femalePearDress,

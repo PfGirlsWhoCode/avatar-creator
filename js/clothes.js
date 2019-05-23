@@ -23,8 +23,8 @@ athleticApple.src = "img/female_apple_athletic_wear.svg"
 var athleticTriangle = new Image()
 athleticTriangle.src = "img/female_Triangle_athletic_wear.svg"
 
-var maleDressHourglass = new Image()
-maleDressHourglass.src = "img/male_hourglass_dress.svg"
+var maleHourglassDress = new Image()
+maleHourglassDress.src = "img/male_hourglass_dress.svg"
 
 var maleTriangleDress= new Image()
 maleTriangleDress.src = "img/male_triangle_dress.svg"
@@ -92,6 +92,12 @@ maleRectangleSuit.src = "img/male_rectangle_suit.svg"
 var maleAppleSuit = new Image()
 maleAppleSuit.src = "img/male_apple_suit.svg"
 
+var maleHourglassSuit = new Image()
+maleHourglassSuit.src = "img/male_hourglass_suit.svg"
+
+var maleTriangleSuit = new Image()
+maleTriangleSuit.scr = "img/male_triangle_suit.svg"
+
 var clothing = {
     "Female": {
         "Hourglass": {
@@ -127,14 +133,14 @@ var clothing = {
     },
     "Male": {
         "Hourglass": {
-            "clothingdress": maleDressHourglass,
-            "clothingsuit" : null,
+            "clothingdress": maleHourglassDress,
+            "clothingsuit" : maleHourglassSuit,
             "clothingathletic" : null,
             "clothingshirtjeans" : null,
         },
         "Triangle": {
             "clothingdress" : maleTriangleDress,
-            "clothingsuit" : null,
+            "clothingsuit" : maleTriangleSuit,
             "clothingshirtjeans" : null,
             "clothingathletic": null,
         },

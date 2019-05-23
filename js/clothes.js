@@ -111,7 +111,7 @@ var maleHourglassTShirtJeans = new Image()
 maleHourglassTShirtJeans.src = "img/male_hourglass_tshirtjeans.svg"
 
 var maleTriangleTShirtJeans = new Image()
-maleTriangleTShirtJeans.src = "img/male_triganle_tshirtjeans.svg"
+maleTriangleTShirtJeans.src = "img/male_triangle_tshirtjeans.svg"
 
 var malePearAthletic = new Image()
 malePearAthletic.src = "img/male_pear_athletic.svg"

@@ -98,6 +98,21 @@ maleHourglassSuit.src = "img/male_hourglass_suit.svg"
 var maleTriangleSuit = new Image()
 maleTriangleSuit.scr = "img/male_triangle_suit.svg"
 
+var malePearTShirtJeans = new Image()
+malePearTShirtJeans.src = "img/male_pear_tshirtjeans.svg"
+
+var maleRectangleTShirtJeans = new Image()
+maleRectangleTShirtJeans.src = "img/male_rectangle_tshirtjeans.svg"
+
+var maleAppleTShirtJeans = new Image()
+maleAppleTShirtJeans.src = "img/male_apple_tshirtjeans.svg"
+
+var maleHourglassTShirtJeans = new Image()
+maleHourglassTShirtJeans.src = "img/male_hourglass_tshirtjeans.svg"
+
+var maleTriangleTShirtJeans = new Image()
+maleTriangleTShirtJeans.src = "img/male_triganle_tshirtjeans.svg"
+
 var clothing = {
     "Female": {
         "Hourglass": {
@@ -135,31 +150,31 @@ var clothing = {
         "Hourglass": {
             "clothingdress": maleHourglassDress,
             "clothingsuit" : maleHourglassSuit,
-            "clothingathletic" : null,
+            "clothingathletic" : maleHourglassTShirtJeans,
             "clothingshirtjeans" : null,
         },
         "Triangle": {
             "clothingdress" : maleTriangleDress,
             "clothingsuit" : maleTriangleSuit,
-            "clothingshirtjeans" : null,
+            "clothingshirtjeans" : maleTriangleTShirtJeans,
             "clothingathletic": null,
         },
         "Pear": {
             "clothingdress": malePearDress,
             "clothingsuit": malePearSuit,
-            "clothingathletic": null,
+            "clothingathletic": malePearTShirtJeans,
             "clothingshirtjeans": null,
         },
         "Apple": {
             "clothingdress": maleAppleDress,
             "clothingsuit": maleAppleSuit,
-            "clothingshirtjeans": null,
+            "clothingshirtjeans": maleAppleTShirtJeans,
             "clothingathletic": null,
         },
         "Rectangle": {
             "clothingdress": maleRectangleDress,
             "clothingsuit": maleRectangleSuit,
-            "clothingathletic": null,
+            "clothingathletic": maleRectangleTShirtJeans,
             "clothingshirtjeans": null,
         },
     },

@@ -21,7 +21,7 @@ var athleticApple = new Image()
 athleticApple.src = "img/female_apple_athletic_wear.svg"
 
 var athleticTriangle = new Image()
-athleticTriangle.src = "img/female_Triangle_athletic_wear.svg"
+athleticTriangle.src = "img/female_triangle_athletic_wear.svg"
 
 var maleHourglassDress = new Image()
 maleHourglassDress.src = "img/male_hourglass_dress.svg"
